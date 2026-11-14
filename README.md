@@ -4,7 +4,7 @@ The **pathSQE** software automates the analysis of single-crystal inelastic neut
 
 There were some dimension issues for some of the math so I modified the code. 
 
-The meta data, file names, and file structure for older experiments are different so I have modified this code so that it works for that data. The biggiest issue that I found is that omega isn't saved in the meta data so mantid is unable to pull that information from the .nxs files. My research group included the omega value in each run's title so I pull the omega value from that. It may be slighly off (±0.1 deg) but that should still be ok. 
+The meta data, file names, and file structure for older experiments are different so I have modified this code so that it works for that data. The biggiest issue that I found is that omega isn't saved in the meta data so mantid is unable to pull that information from the .nxs files. My research group included the omega value in each run's title so I pull the omega value from that. It may be slighly off (±0.1 deg ??) but that should still be ok. 
 
 ## Getting Started
 
